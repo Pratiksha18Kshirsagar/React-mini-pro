@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const getWeather = async () => {
       let apiKey = "64b71db2b9ac2e33740181245642c47a";
-      let data
+      let data = 
       let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
       console.log(response)
     }
