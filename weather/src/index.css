@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+   
+.image{
+    background-image: url('https://github.com/alexkowsik/react-weather-app/blob/master/src/images/background.jpg?raw=true');
+    width: 80vw;
+    height: 90vh;
+    background-size: cover; /* This will make the image cover the whole area */
+    background-position: center; /* This will center the image */
+    background-repeat: no-repeat;
+}
 body{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
+
+
+
