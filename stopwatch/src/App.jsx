@@ -43,11 +43,11 @@ function App() {
         </div>
 
       <div className='flex gap-14 p-11 max-md:flex max-md:flex-col '>
-        <button className='border border-white p-6 bg-green-300 text-black text-[25px] rounded-xl' 
+        <button className='border  border-white p-6 bg-green-300 hover:bg-green-400 text-black text-[25px] rounded-xl' 
         onClick={start}><VscDebugStart /></button>
-        <button className='border border-white p-6 bg-yellow-200 text-black text-[25px] rounded-xl ' 
+        <button className='border border-white p-6 bg-yellow-200 hover:bg-yellow-400 text-black text-[25px] rounded-xl ' 
         onClick={stop}><CiStopwatch /></button>
-        <button className='border border-white p-6 bg-red-300 text-black text-[25px] rounded-xl'
+        <button className='border border-white p-6 bg-red-300 hover:bg-red-400 text-black text-[25px] rounded-xl'
          onClick={reset}><GrPowerReset /></button>
     
       </div>
